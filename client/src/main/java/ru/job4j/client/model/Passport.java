@@ -1,4 +1,4 @@
-package ru.job4j.passport.model;
+package ru.job4j.client.model;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

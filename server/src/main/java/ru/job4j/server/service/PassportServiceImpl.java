@@ -1,8 +1,8 @@
-package ru.job4j.passport.service;
+package ru.job4j.server.service;
 
 import org.springframework.stereotype.Service;
-import ru.job4j.passport.model.Passport;
-import ru.job4j.passport.repository.PassportRepository;
+import ru.job4j.server.model.Passport;
+import ru.job4j.server.repository.PassportRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

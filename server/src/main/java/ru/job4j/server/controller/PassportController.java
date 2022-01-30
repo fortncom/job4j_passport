@@ -1,13 +1,10 @@
-package ru.job4j.passport.controller;
+package ru.job4j.server.controller;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import ru.job4j.passport.model.Passport;
-import ru.job4j.passport.service.PassportService;
+import ru.job4j.server.model.Passport;
+import ru.job4j.server.service.PassportService;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/passport")
@@ -29,7 +26,7 @@ public class PassportController {
         return service.findByExpireDate();
     }
 
-    @GetMapping("/soon_expire_date")
+    @GetMapping("/soonExpireDate")
     public List<Passport> findBySoonExpireDate() {
         return service.findBySoonExpireDate();
     }

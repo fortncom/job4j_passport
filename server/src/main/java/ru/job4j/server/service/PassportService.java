@@ -1,6 +1,6 @@
-package ru.job4j.passport.service;
+package ru.job4j.server.service;
 
-import ru.job4j.passport.model.Passport;
+import ru.job4j.server.model.Passport;
 
 import java.util.List;
 

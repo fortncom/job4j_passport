@@ -1,4 +1,4 @@
-package ru.job4j.passport.config;
+package ru.job4j.server.config;
 
 import liquibase.integration.spring.SpringLiquibase;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -19,8 +19,4 @@ public class CommonConfig {
         return liquibase;
     }
 
-    @Bean
-    public RestTemplate getTemplate() {
-        return new RestTemplate();
-    }
 }
