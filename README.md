@@ -1,5 +1,7 @@
 ### Passport
 
+[![Build Status](https://app.travis-ci.com/fortncom/job4j_passport.svg?branch=master)](https://app.travis-ci.com/fortncom/job4j_passport)
+
 This service automates the work of the passport office. 
 
 ##### Dependencies
@@ -13,7 +15,7 @@ This service automates the work of the passport office.
 
 ##### Provides REST API endpoints:
 
-GET: /passport/
+GET: /mfc/passport/
 
 GET: /mfc/passport/id
 
